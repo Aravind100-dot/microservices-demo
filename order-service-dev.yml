@@ -1,13 +1,11 @@
 spring:
   application:
     name: order-service
-
   datasource:
-    url: jdbc:mysql://localhost:3306/ ecommerce
+    url: jdbc:mysql://localhost:3306/ecommerce
     username: root
-    password: @Happy890
+    password: '@Happy890'
     driver-class-name: com.mysql.cj.jdbc.Driver
-
   jpa:
     hibernate:
       ddl-auto: update
